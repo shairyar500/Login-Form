@@ -1,0 +1,81 @@
+body{
+    margin: 25%;
+    padding: 0;
+    background: url(https://pixabay.com/get/g2786d46cf01f88d72024d7d4ec98f50b99ae3e016d10fb4bb428092b537a15abd1ddaf45f3ebf9df4273cd914ff82afa_1280.jpg);
+    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif; 
+}
+.loginform{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.loginimg{
+    height: 100px;
+    width: 100px;
+    
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginform p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginform input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.loginform input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(131, 16, 64);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: tomato;
+    font-size: 16px;
+}
+.loginform input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(190, 55, 89);
+    color: rgb(63, 4, 4);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.loginform input[type="submit"]:hover{
+    color: rgb(245, 245, 248);
+    cursor: pointer;
+    background: rgb(138, 9, 95);
+    border-radius: 20px;
+}
+.loginform a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.loginform a:hover{
+    color: #ffc10739;
+}
